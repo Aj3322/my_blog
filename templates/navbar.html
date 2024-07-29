@@ -1,0 +1,120 @@
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand me-auto" href="#">Gadget Galaxy</a>
+
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Gadget Galaxy</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active mx-lg-2" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Blog</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li> -->
+          </ul>
+          <!-- <form class="d-flex mt-3" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form> -->
+        </div>
+      </div>
+      <img
+      src="./images/user.png"
+      alt="User Pic"
+      class="user-pic"
+      onclick="toggleSubMenu()"
+    />
+
+    <div class="sub-menu-wrap" id="subMenu">
+      <div class="sub-menu">
+        <div class="user-info">
+          <img src="./images/user.png" alt="User Pic" />
+          <h3>Ajay Kumar</h3>
+        </div>
+        <hr>
+        <a href="#" class="sub-menu-link">
+          <img src="./images/profile.png" alt="Edit Profile" />
+          <p>Edit Profile</p>
+          <span>&gt;</span>
+        </a>
+        <a href="#" class="sub-menu-link">
+          <img src="./images/setting.png" alt="Settings" />
+          <p>Settings & Privacy</p>
+          <span>&gt;</span>
+        </a>
+        <a href="#" class="sub-menu-link">
+          <img src="./images/help.png" alt="Help" />
+          <p>Help</p>
+          <span>&gt;</span>
+        </a>
+        <a href="#" class="sub-menu-link">
+          <img src="./images/logout.png" alt="Log Out" />
+          <p>Log out</p>
+          <span>&gt;</span>
+        </a>
+      </div>
+      <button
+        class="navbar-toggler pe-0"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+      <a href="#" class="login-btn">Login</a>
+
+  </nav>
+  <!-- End Navbar -->   
